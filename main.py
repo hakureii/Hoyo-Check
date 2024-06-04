@@ -3,7 +3,7 @@ import json
 import os
 
 discord_notify = False
-myDiscordID = "1098141251209023538"
+myDiscordID = os.environ["DID"]
 discordWebhook = os.environ["DWEBHOOK"]
 
 urls = {
