@@ -27,7 +27,7 @@ def auto_sign_function():
 
     fields = []
     for game in urls:
-        if game == "Honkai 3":
+        if game == "Honkai 3" or game == "Star Rail":
             # skip hi3 cuz i dont play
             continue
         response_json = requests.post(urls[game], headers=header)
